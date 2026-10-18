@@ -1,0 +1,13 @@
+# Neon: console.neon.tech -> project -> Connect -> pilih "Pooled connection"
+DATABASE_URL=postgresql://neondb_owner:npg_sLLhZ7it8VxX@ep-wispy-band-az7616lc-pooler.c-3.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+GEMINI_API_KEY=AQ.Ab8RN6IJPlOWTsSMuwGhql4T9Vk43Ag2lWzALZtXGgV6IYSawQ
+AUTH_SECRET=abcdfghijklmnopqrstuvwxyz#1234567890
+# Reset sandi via email (opsional, resend.com)
+APP_URL=https://ai-key-asisten-new.vercel.app
+RESEND_API_KEY=
+RESEND_FROM=KEY AI <noreply@domainanda.com>
+# Opsional: override mode (default sudah model terbaru)
+MODEL_MAX=gemini-4-argon
+MODEL_MEDIUM=gemini-3.8-flash
+MODEL_CEPAT=gemini-3.1-flash-lite
+IMAGE_MODEL=gemini-nano-banana-2.1
